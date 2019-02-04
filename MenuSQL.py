@@ -16,7 +16,7 @@ class Options(QWidget):
 		if os.name == "nt"
 			uic.loadUi("ui\\options.ui",self)
 		else:
-			uic.loadUi("ui/option.ui",self)
+			uic.loadUi("ui/options.ui",self)
 		self.download.clicked.connect(self.descargar)
 	def descargar(self):
 		try:
