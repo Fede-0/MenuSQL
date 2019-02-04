@@ -4,13 +4,16 @@ _Menu para la herramienta SQLMAP, para hacer mas sencillo el uso de esta_
 
 
 ### Pre-requisitos 📋
-```
-Python3 Python2 Python3-Tkinter
-```
-### Opcional
+
+_Python3
+Python2
+Python3-Tkinter_
+
+##Opcional
+_Git_
 
 ```
-Git
+Da un ejemplo
 ```
 
 ### Instalación 🔧
