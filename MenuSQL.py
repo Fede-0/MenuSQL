@@ -6,6 +6,7 @@ from PyQt5 import uic
 import random
 import urllib.request, zipfile
 import os
+import time
 
 random1 = random.randint(0,600)
 random = random.randint(0,600)
