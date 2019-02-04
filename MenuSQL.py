@@ -13,7 +13,7 @@ random = random.randint(0,600)
 class Options(QWidget):
 	def __init__(self):
 		QApplication.__init__(self)
-		if os.name == "nt"
+		if os.name == "nt":
 			uic.loadUi("ui\\options.ui",self)
 		else:
 			uic.loadUi("ui/options.ui",self)
