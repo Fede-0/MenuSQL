@@ -13,7 +13,10 @@ random = random.randint(0,600)
 class Options(QWidget):
 	def __init__(self):
 		QApplication.__init__(self)
-		uic.loadUi("ui\\options.ui",self)
+		if os.name == "nt"
+			uic.loadUi("ui\\options.ui",self)
+		else:
+			uic.loadUi("ui/option.ui",self)
 		self.download.clicked.connect(self.descargar)
 	def descargar(self):
 		try:
@@ -44,7 +47,10 @@ class Ventana(QMainWindow):
  		#Iniciar Objeto QMainWindows
  		QMainWindow.__init__(self)
  		#Cargar la configurcion del archivo .ui
- 		uic.loadUi("ui\\main.ui",self)
+ 		if os.name == "nt":
+ 			uic.loadUi("ui\\main.ui",self)
+ 		else:
+ 			uic.loadUi("ui/main.ui",self)
  	#CheckBoxs
  		self.D.stateChanged.connect(self.d)
  		self.T.stateChanged.connect(self.t)
