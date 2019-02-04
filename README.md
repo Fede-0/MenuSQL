@@ -7,7 +7,7 @@ _Menu para la herramienta SQLMAP, para hacer mas sencillo el uso de esta_
 
 _Python3
 Python2
-Python3-Tkinter_
+Python3-PyQt5_
 
 ##Opcional
 _Git_
